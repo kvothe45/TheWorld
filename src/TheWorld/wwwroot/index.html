@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>The World</title>
+    <meta charset="utf-8" />
+
+   <link rel="stylesheet" href="css/site.css" />
+
+</head>
+<body>
+    <div id="sidebar">
+        <img src="img/hgttg.png" alt="avatar" class="avatar" />
+        <span id="username">Arthur Dent</span>
+        <ul class="menu">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <div id="main">
+            <div>
+                <button id="sidebarToggle">Toggle Menu</button>
+            </div>
+            <h1>The World</h1>
+            <p>This will be a fun website soon!</p>
+
+            <form>
+                <div>
+                    <label>Date</label>
+                    <input />
+                </div>
+                <div>
+                    <label>Location</label>
+                    <input />
+                </div>
+                <div><input type="submit" value="Add" /></div>
+            </form>
+        </div>
+        <div id="footer">
+            &copy; 2015 The World Ltd.
+        </div>
+    </div>
+
+    <!--this is at the bottom so that the html page has been constructed first and can now be manipulated here.
+        just good practice.  but don't put the actual code in the tag since its not reusable.  it's best to
+        reference the source from elsewhwere so you can use it over again if necessary.-->
+    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+
+</body>
+</html>
